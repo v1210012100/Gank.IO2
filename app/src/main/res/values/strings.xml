@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">Gank.IO</string>
+    <string name="about" >关于</string>
+    <string name="transition_img">meizi</string>
+    <string name="about_account">致谢:感谢代码家的干货网站<a href="http://www.gank.io/">Gank.io</a>\n\n我的Github:<a href="https://github.com/v1210012100">v1210012100</a>\n\n博客:<a href="http://blog.csdn.net/runfastthantime">影魔的android</a></string>
+
+</resources>
