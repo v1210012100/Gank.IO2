@@ -1,6 +1,7 @@
 #App 介绍
 
 Gank.io  这个网站收集了许多前沿精品的Android 学习文章并提供了Api 接口供人使用。本app 内容来源于http://www.gank.io/api
+欢迎Star       -  -
 
 Gank.io 这个App 采用了Material  风格。
 - 主界面采用 CoordingLayout 和AppBarLayout和Tablayout 和viewPager
