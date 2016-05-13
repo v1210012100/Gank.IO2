@@ -65,7 +65,7 @@ public class DetailActivity extends AppCompatActivity {
         CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         ImageView mImage = (ImageView) findViewById(R.id.Image);
         collapsingToolbar.setTitle(dataResults.getType());
-        collapsingToolbar.setExpandedTitleColor(getColor(R.color.accent));
+        collapsingToolbar.setExpandedTitleColor(getResources().getColor(R.color.accent));
         String url = meiziResults.getUrl();
 
         //加载头部图片
