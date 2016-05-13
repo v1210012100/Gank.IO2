@@ -36,7 +36,6 @@ import Net.GankUrl;
 public class DetailActivity extends AppCompatActivity {
    private WebView webView;
    private NumberProgressBar progressBar;
-    @TargetApi(Build.VERSION_CODES.M)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
