@@ -79,19 +79,11 @@ public class DetailActivity extends AppCompatActivity {
         webView= (WebView) findViewById(R.id.webView);
         progressBar= (NumberProgressBar) findViewById(R.id.progressbar);
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl(dataResults.getUrl());
         webView.setWebChromeClient(new MyWebChromeClient());
         webView.setWebViewClient(new MyWebClient());
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webSettings.setAllowFileAccess(true);
-        webSettings.setDatabaseEnabled(true);
-        webSettings.setDomStorageEnabled(true);
-        webSettings.setSaveFormData(false);
-        webSettings.setAppCacheEnabled(true);
-        webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
-        webSettings.setLoadWithOverviewMode(false);
-        webSettings.setUseWideViewPort(true);
+        webView.loadUrl(dataResults.getUrl());
 
         //设置返回导航按钮
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
